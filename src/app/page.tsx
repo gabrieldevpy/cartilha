@@ -221,7 +221,7 @@ export default function Home() {
                 <CardTitle className="text-3xl md:text-4xl font-bold font-headline">Acesso Imediato à Aventura!</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                <p className="text-5xl font-bold font-headline">R$ 47,00</p>
+                <p className="text-5xl font-bold font-headline">R$ 19,90</p>
                 <p className="text-muted-foreground">Pagamento único. Acesso vitalício. Imprima quantas vezes quiser.</p>
                 <ul className="text-left space-y-2">
                     <li className="flex items-center"><Star className="w-5 h-5 mr-2 text-primary"/> Material completo em PDF</li>
