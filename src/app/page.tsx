@@ -78,6 +78,8 @@ const faqs = [
     }
 ];
 
+const sampleImages = ["/1.png", "/2.png", "/3.png"];
+
 
 export default function Home() {
   return (
@@ -152,13 +154,13 @@ export default function Home() {
                 </div>
                 <Carousel className="w-full max-w-4xl mx-auto">
                     <CarouselContent>
-                        {Array.from({ length: 5 }).map((_, index) => (
+                        {sampleImages.map((src, index) => (
                         <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                             <div className="p-1">
                                 <Card>
                                     <CardContent className="flex aspect-square items-center justify-center p-6">
                                        <Image 
-                                        src={`https://placehold.co/400x400.png`}
+                                        src={src}
                                         alt={`Página de exemplo ${index + 1}`}
                                         width={400}
                                         height={400}
