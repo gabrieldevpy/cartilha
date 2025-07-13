@@ -226,7 +226,6 @@ export default function Home() {
                 <ul className="text-left space-y-2">
                     <li className="flex items-center"><Star className="w-5 h-5 mr-2 text-primary"/> Material completo em PDF</li>
                     <li className="flex items-center"><Star className="w-5 h-5 mr-2 text-primary"/> Bônus: Flashcards das letras</li>
-                    <li className="flex items-center"><Star className="w-5 h-5 mr-2 text-primary"/> Acesso à ferramenta de IA</li>
                 </ul>
                 <Button size="lg" className="w-full text-lg">Comprar Agora e Começar a Diversão!</Button>
               </CardContent>
