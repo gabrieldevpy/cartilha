@@ -82,6 +82,8 @@ const sampleImages = ["/1.png", "/2.png", "/3.png"];
 
 
 export default function Home() {
+  const checkoutUrl = "https://www.ggcheckout.com/checkout/v2/yBbmCujmniq4w62ZDkEZ";
+
   return (
     <div className="flex flex-col min-h-screen">
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -91,7 +93,9 @@ export default function Home() {
             <span className="font-bold font-headline">Alphabet Adventures</span>
           </div>
           <div className="flex flex-1 items-center justify-end space-x-2">
-            <Button>Comprar Agora</Button>
+             <a href={checkoutUrl} target="_blank" rel="noopener noreferrer">
+              <Button>Comprar Agora</Button>
+            </a>
           </div>
         </div>
       </header>
@@ -106,7 +110,9 @@ export default function Home() {
             <p className="text-lg text-muted-foreground">
               Transforme a alfabetização em uma jornada mágica e divertida. Com a nossa cartilha lúdica, seu filho(a) vai se apaixonar pelas letras e palavras.
             </p>
-            <Button size="lg" className="text-lg">Quero a Minha Cartilha!</Button>
+            <a href={checkoutUrl} target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="text-lg">Quero a Minha Cartilha!</Button>
+            </a>
           </div>
           <div className="flex justify-center">
             <Image
@@ -230,7 +236,9 @@ export default function Home() {
                     <li className="flex items-center"><Star className="w-5 h-5 mr-2 text-primary"/> Material completo em PDF</li>
                     <li className="flex items-center"><Star className="w-5 h-5 mr-2 text-primary"/> Bônus: Flashcards das letras</li>
                 </ul>
-                <Button size="lg" className="w-full text-lg">Comprar Agora e Começar a Diversão!</Button>
+                 <a href={checkoutUrl} target="_blank" rel="noopener noreferrer">
+                    <Button size="lg" className="w-full text-lg">Comprar Agora e Começar a Diversão!</Button>
+                </a>
               </CardContent>
             </Card>
           </div>
