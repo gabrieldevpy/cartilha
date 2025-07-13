@@ -6,6 +6,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { BookOpen, Gamepad2, Mic, Paintbrush, Star, Text } from "lucide-react";
 import { PersonalizedLearningForm } from "@/components/PersonalizedLearningForm";
 import { Logo } from "@/components/Logo";
+import { Footer } from "@/components/Footer";
 
 const features = [
   {
@@ -253,11 +254,7 @@ export default function Home() {
         </section>
       </main>
       
-      <footer className="bg-secondary/50">
-        <div className="container py-6 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Alphabet Adventures. Todos os direitos reservados.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
