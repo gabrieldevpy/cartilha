@@ -107,12 +107,12 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <Image
-              src="https://placehold.co/600x400.png"
+              src="/hero-image.png"
               alt="Capa da Cartilha de Alfabetização Lúdica"
               width={600}
               height={400}
               className="rounded-xl shadow-2xl"
-              data-ai-hint="storybook illustration children"
+              priority
             />
           </div>
         </section>
