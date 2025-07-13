@@ -107,7 +107,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <Image
-              src="/hero-image.png"
+              src="/cartilha.png"
               alt="Capa da Cartilha de Alfabetização Lúdica"
               width={600}
               height={400}
