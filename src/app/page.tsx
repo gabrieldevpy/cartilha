@@ -82,7 +82,7 @@ const sampleImages = ["/1.png", "/2.png", "/3.png"];
 
 
 export default function Home() {
-  const checkoutUrl = "https://www.ggcheckout.com/checkout/v2/yBbmCujmniq4w62ZDkEZ";
+  const checkoutUrl = "https://pay.kirvano.com/50da447c-a3c4-41a6-b742-b0acc32bbb5d";
 
   return (
     <div className="flex flex-col min-h-screen">
