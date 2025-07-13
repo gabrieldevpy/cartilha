@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { handleGetSuggestions } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -25,7 +26,7 @@ function SubmitButton() {
 }
 
 export function PersonalizedLearningForm() {
-  const [state, formAction] = useFormState(handleGetSuggestions, initialState);
+  const [state, formAction] = useActionState(handleGetSuggestions, initialState);
 
   return (
     <Card className="w-full max-w-2xl mx-auto shadow-lg">
